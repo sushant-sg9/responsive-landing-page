@@ -1,0 +1,31 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#F5F5F5"/>
+<g id="Section 2">
+<path d="M-136 -448C-136 -449.105 -135.105 -450 -134 -450H2384C2385.1 -450 2386 -449.105 2386 -448V1348C2386 1349.1 2385.1 1350 2384 1350H-134C-135.105 1350 -136 1349.1 -136 1348V-448Z" fill="black"/>
+<path d="M-134 -449H2384V-451H-134V-449ZM2385 -448V1348H2387V-448H2385ZM2384 1349H-134V1351H2384V1349ZM-135 1348V-448H-137V1348H-135ZM-134 1349C-134.552 1349 -135 1348.55 -135 1348H-137C-137 1349.66 -135.657 1351 -134 1351V1349ZM2385 1348C2385 1348.55 2384.55 1349 2384 1349V1351C2385.66 1351 2387 1349.66 2387 1348H2385ZM2384 -449C2384.55 -449 2385 -448.552 2385 -448H2387C2387 -449.657 2385.66 -451 2384 -451V-449ZM-134 -451C-135.657 -451 -137 -449.657 -137 -448H-135C-135 -448.552 -134.552 -449 -134 -449V-451Z" fill="black" fill-opacity="0.1"/>
+<g id="Wireframe - 8" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-36 -127)" fill="#F7F7F7"/>
+<g id="Frame 427319137">
+<rect width="245" height="988" transform="translate(-36 -91)" fill="url(#paint0_linear_0_1)"/>
+<g id="Frame 427319120">
+<g id="Frame 33">
+<path d="M-12 9.53674e-07C-12 -3.31371 -9.31371 -6 -6 -6H179C182.314 -6 185 -3.31371 185 0V24C185 27.3137 182.314 30 179 30H-6C-9.31371 30 -12 27.3137 -12 24V9.53674e-07Z" fill="white" fill-opacity="0.16"/>
+<g id="home">
+<path id="Vector" d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M9 22V12H15V22" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1" x1="122.5" y1="0" x2="122.5" y2="988" gradientUnits="userSpaceOnUse">
+<stop stop-color="#135ADE"/>
+<stop offset="1" stop-color="#003392"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-36 -127)"/>
+</clipPath>
+</defs>
+</svg>

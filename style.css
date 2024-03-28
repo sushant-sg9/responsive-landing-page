@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background-color: #2551c7; 
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto; 
+    z-index: 1000;
+    width: 250px; 
+}
+.nav-item a span{
+    color: white;
+}
+.home-image{
+    width: 20px;
+    height: 20px;
+}
+.active {
+    background-color: #4670d6; 
+    border-radius: 5px; 
+}
+.mobile-nav{
+    display: none;
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+}
+.nav-title{
+    display: none;
+}
+.instagram{
+    display: none;
+}
+.top-navbar{
+    justify-content: flex-end;
+}
+.help-section{
+    display: none;
+}
+.chart{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.wow{
+    background-color: #fdf9e7;
+    border-radius: 13px;
+    padding: 10px;
+    font-weight: 500;
+}
+.wow span{
+    color: #8bc9d8;
+}
+
+.share-app-section {
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overlay .p1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.overlay .p2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.overlay .share-app {
+    background-color: #ffffff;
+    color: black;
+    padding: 5px 50px;
+    border-radius: 30px;
+}
+
+.share-app-section img {
+    max-width: 100%; 
+    max-height: 100%;
+    height: auto; 
+    width: auto; 
+}
+.guide{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+.practice-box{
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.start-button{
+    padding: 5px 120px;
+    border: none;
+    background-color: #2a59d6;
+    border-radius: 30px;
+}
+.feature-list ul li{
+    font-size: 13px;
+}
+.premium-feature{
+    background-color: #e8effd;
+    border-radius: 15px;
+}
+.buy-now{
+    color: #ffffff;
+    background-color: #2857d5;
+    padding: 10px 10px;
+    border-top-left-radius: 25px; 
+    border-bottom-left-radius: 25px;
+    border: none;
+    font-size: 15px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.mocktest-section-mobile{
+    border-radius: 20px;
+    padding-left: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.video-guide{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    /* gap: 20px; */
+}
+
+
+@media (max-width: 576px) {
+    .discount{
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .nav-link{
+        padding: 0;
+    }
+    .nav{
+        gap: 10px;
+    }
+    .mobile-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        padding: 10px 0;
+        border-top: 1px solid #dddddd;
+        display: flex;
+        justify-content: space-around;
+        z-index: 1000;
+    }
+    .nav-item {
+        text-align: center;
+        padding: 0 5px; 
+        white-space: nowrap; 
+    }
+    .nav-item img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .profile{
+        float: left !important;
+        height: 40px !important;
+        width: 40px !important;
+    }
+    .top-navbar{
+        justify-content: space-between !important;
+    }
+    .navbar-mobile{
+        background-color: #2551c7 !important;
+    }
+    .nav-title{
+        display: block !important;
+    }
+    .instagram{
+        display: block !important;
+    }
+    .titleSection{
+        background-color: #3561d1;
+        padding: 10px;
+        border-radius: 30px;
+    }
+    .title_0{
+        padding: 4px;   
+    }
+    .active_title0{
+        background-color: #ffffff;
+        color: blue;
+        padding: 7px 13px 7px 13px;
+        border-radius: 40px;
+    }
+    .help-section{
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 19px;
+        border: 1px solid #81a1e7;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .help-section p{
+        font-weight:600;
+        padding: 10px;
+        margin: none;
+    }
+    .help-section button{
+        background-color: #fcf0e4;
+        color: #e48637;
+        font-weight:600;
+        outline: none;
+        border: none;
+        border-radius: 25px;
+        padding: 2px 17px;
+    }
+    .mobile_wow{
+        display: block !important;
+        background-color: #fdf9e7;
+        border-radius: 13px;
+        padding: 10px;
+        font-weight: 500;
+    }
+    .mobile-wow h5{
+        font-size: 5px !important;
+    }
+    .mobile_wow span{
+        color: #8bc9d8;
+    }
+    .wow{
+        display: none !important;
+    }
+    .mobile_summary{
+        display: block !important;
+    }
+    .desktop_summary{
+        display: none !important;
+    }
+    .sections-practice-test{
+        padding: 2rem 1rem 1rem;
+    }
+    .desktop_mocktest{
+        display: none !important;
+    }
+    .section-for-share{
+        margin-bottom: 100px;
+    }
+    .premium-feature{
+        margin: 25px 10px;
+        position: relative;
+    }
+    .premium-feature-mobile{
+        display: flex !important;
+        justify-content: space-between;
+    }
+    .offer-mobile{
+        flex-direction: column;
+        justify-content: flex-start !important;
+    }
+    .offer p{
+        /* margin: 20px 10px 20px 20px; */
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .buy-now {
+        position: absolute; 
+        top: 1;
+        right: 0;
+        bottom: 47px;
+        color: #ffffff;
+        background-color: #2857d5;
+        padding: 10px 15px; 
+        border-top-left-radius: 0; 
+        border-bottom-left-radius: 0; 
+        border: none;
+        font-size: 15px;
+    }
+
+}
+
+
+@media (min-width: 577px) {
+    .three-title {
+        display: none !important; 
+    }
+    .help-section {
+        display: none !important;
+    }
+    .mobile_wow{
+        display: none !important;
+    }
+    .mobile_summary{
+        display: none !important;
+    }
+    .mobile_mocktest{
+        display: none !important;
+    }
+    .quick-actions{
+        display: none !important;
+    }
+    .extra-grid{
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 991.98px) {
+    .section-for-share {
+        order: 4; /* Change order for mobile view */
+    }
+}
